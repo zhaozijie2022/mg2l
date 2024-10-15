@@ -1,0 +1,61 @@
+
+seed: 0
+gpu_id: 0
+n_iters: 1000
+eval_interval: 50
+save_interval: 200
+sample_ae_interval: 5
+train_ae_interval: 1
+log_wandb: False
+log_interval: 1
+save_model: False
+load_model: False
+load_buffer_path: None
+main_save_path: "results/"
+load_model_path: ""
+
+
+
+hidden_sizes_mlp: [64]  # mlp encoder hidden size
+n_heads: 4
+n_blocks: 2
+context_dim: 64
+lr: 5e-4
+dist: "gaussian"  # gaussian or deterministic
+kl_weight: 0.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

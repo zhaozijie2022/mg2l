@@ -1,0 +1,20 @@
+env_file: mpe.prey_target
+env_class: PreyTargetMPE
+scenario_name: "prey"
+
+max_ep_len: 100
+n_agents: 3
+n_tasks: 2
+task_info_dim: 2
+
+save_name: "mpe_prey"
+
+ae_batch_size: 32
+ae_updates_per_iter: 20
+n_init_rollouts: 5  # n_init_rollouts * n_envs 填充 ae_buffer
+ae_buffer_size: 500
+
+ppo_epoch: 15
+n_rollout_threads: 32
+n_ae_rollout_threads: 4
+

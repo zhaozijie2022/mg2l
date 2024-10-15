@@ -1,0 +1,19 @@
+env_file: mujoco.half_cheetah_dir
+env_class: HalfCheetahDirEnvMulti
+
+max_ep_len: 1000
+n_agents: 2
+n_tasks: 2
+agent_obsk: 0
+
+save_name: "cheetah_dir"
+
+ae_batch_size: 512
+ae_updates_per_iter: 20
+n_init_rollouts: 5
+ae_buffer_size: 20000
+
+ppo_epoch: 15
+n_rollout_threads: 32
+n_ae_rollout_threads: 4
+
