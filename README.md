@@ -31,8 +31,8 @@ from Global Inference to Local Inference."
 
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="assert/ae.svg" alt="encoder" style="width: 55%;">
-    <img src="assert/pia.svg" alt="pia" style="width: 45%;">
+    <img src="assert/ae.svg" alt="encoder" style="width: 50%;">
+    <img src="assert/pia.svg" alt="pia" style="width: 40%;">
 </div>
 
 
