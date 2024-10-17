@@ -27,11 +27,11 @@ from Global Inference to Local Inference."
 
 [//]: # (MG2L scheme can serve as a versatile solution for meta-MARL.)
 
-![The structure of MG2L](assert/method-structure.svg)
+![The structure of MG2L](assert/mg2l.svg)
 
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="assert/multi-level-task-encoder.svg" alt="encoder" style="width: 65%;">
+    <img src="assert/ae.svg" alt="encoder" style="width: 65%;">
     <img src="assert/pia.svg" alt="pia" style="width: 45%;">
 </div>
 
