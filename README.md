@@ -27,12 +27,12 @@ from Global Inference to Local Inference."
 
 [//]: # (MG2L scheme can serve as a versatile solution for meta-MARL.)
 
-![The structure of MG2L](assert/mg2l.svg)
+![The structure of MG2L](assert/models/mg2l.svg)
 
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="assert/ae.svg" alt="encoder" style="width: 50%;">
-    <img src="assert/pia.svg" alt="pia" style="width: 40%;">
+    <img src="assert/models/ae.svg" alt="encoder" style="width: 50%;">
+    <img src="assert/models/pia.svg" alt="pia" style="width: 40%;">
 </div>
 
 
@@ -59,6 +59,14 @@ python train.py --expt=default --algo=mg2l --env=mujoco-cheetah-dir gpu_id=0
 The `--env` flag can be followed with any existing config name in the `mg2l/config/algo_config/` directory, 
 and any other config named `xx` (such as `gpu_id`) can be passed by `xx=value`. 
 
+
+## Demonstration
+<div style="display: flex; justify-content: space-around;">
+    <img src="assert/demos/hunting.gif" alt="encoder" style="width: 45%;">
+    <img src="assert/demos/spread.gif" alt="pia" style="width: 45%;">
+    <img src="assert/demos/rware.gif" alt="pia" style="width: 45%;">
+    <img src="assert/demos/magent.gif" alt="pia" style="width: 45%;">
+</div>
 
 ## Citation
 
