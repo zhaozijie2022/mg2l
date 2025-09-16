@@ -34,10 +34,10 @@ and any other config named `xx` (such as `gpu_id`) can be passed by `xx=value`.
 ---
 ## Demos
 <p align="center">
-    <img src="assets/demos/hunting.gif" alt="encoder" style="width: 20%;">
-    <img src="assets/demos/spread.gif" alt="pia" style="width: 20%;">
-    <img src="assets/demos/rware.gif" alt="pia" style="width: 20%;">
-    <img src="assets/demos/magent.gif" alt="pia" style="width: 20%;">
+    <img src="assets/demos/hunting.gif" alt="encoder" width="20%">
+    <img src="assets/demos/spread.gif" alt="pia" width="20%">
+    <img src="assets/demos/rware.gif" alt="pia" width="20%">
+    <img src="assets/demos/magent.gif" alt="pia" width="20%">
 </p>
 
 ---
