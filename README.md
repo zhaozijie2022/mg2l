@@ -1,8 +1,6 @@
-# MG2L: Meta Multi-Agent Reinforcement Learning
+# MG2L: Meta MARL via Mutual Information Optimization
 
-This repository is the implementation of the paper 
-[Meta Learning Task Representation in Multi-Agent Reinforcement Learning: 
-from Global Inference to Local Inference](https://ieeexplore.ieee.org/abstract/document/10905042/).
+This repository is the implementation of the paper [Meta Learning Task Representation in Multi-Agent Reinforcement Learning: from Global Inference to Local Inference](https://ieeexplore.ieee.org/abstract/document/10905042/), which published on [IEEE TNNLS](https://cis.ieee.org/publications/t-neural-networks-and-learning-systems).
 
 
 ## Overview
